@@ -1,7 +1,7 @@
 /*
 女装盲盒
 活动时间：自改7月
-活动地址：https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html
+活动地址：https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?
 活动入口：京东app-女装馆-赢京豆
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
@@ -68,9 +68,9 @@ if ($.isNode()) {
         continue
       }
       try {
-        //await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?lng=121.650097&lat=31.262434&sid=2338db1b47373dc5343993f43ffc716w&un_area=2_2830_51806_0&shareid=3035d5aef8ddc9e533225c49f96d6c52&_ts=1625116781719&utm_source=iosapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&ad_od=share')
-        await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?lng=121.650097&lat=31.262434&sid=2338db1b47373dc5343993f43ffc716w&un_area=2_2830_51806_0&shareid=3035d5aef8ddc9e533225c49f96d6c52&_ts=1625116781719&utm_source=iosapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&ad_od=share')
-        // await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?lng=121.650097&lat=31.262434&sid=2338db1b47373dc5343993f43ffc716w&un_area=2_2830_51806_0&shareid=3035d5aef8ddc9e533225c49f96d6c52&_ts=1625116781719&utm_source=iosapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&ad_od=share')
+        //await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?')
+        await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?')
+        // await jdMh('https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?')
       } catch (e) {
         $.logErr(e)
       }
@@ -110,7 +110,7 @@ function showMsg() {
   })
 }
 
-function getInfo(url = 'https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?lng=121.650097&lat=31.262434&sid=2338db1b47373dc5343993f43ffc716w&un_area=2_2830_51806_0&shareid=3035d5aef8ddc9e533225c49f96d6c52&_ts=1625116781719&utm_source=iosapp&utm_medium=appshare&utm_campaign=t_335139774&utm_term=Wxfriends&ad_od=share') {
+function getInfo(url = 'https://anmp.jd.com/babelDiy/Zeus/9Z9HZWmQuwDnYKC1rzZTMpdn8ms/index.html?') {
   console.log(`url:${url}`)
   return new Promise(resolve => {
     $.get({
