@@ -5,7 +5,7 @@
 活动入口：京东app-女装馆-赢京豆
 [task_local]
 #女装盲盒
-35 1,23 * * * https://gitee.com/leitong0/leitong/blob/master/自用京东/自改女装盲盒.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+35 1,23 * * * https://raw.githubusercontent.com/Xiaoleimt/-/main/自改女装盲盒.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
  */
 
 const $ = new Env('女装盲盒抽京豆');
